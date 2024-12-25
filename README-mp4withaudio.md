@@ -72,7 +72,7 @@ You can modify the function call in `mp4.py` to change the default settings:
 create_mp4_from_folder(
     input_folder='images',        # Change input folder path
     output_file='output.mp4',     # Change output filename
-    fps=1                         # Change frames per second
+    fps=1/3                         # Change frames per second 1/3 for 3 seconds 1
 )
 ```
 
