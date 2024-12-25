@@ -5,7 +5,7 @@
 # But allow these files
 !gif.py
 !mp4.py
-!mp4withaudio.py
+!mp4vonly.py
 !README.md
 !README-mp4.md
 !README-mp4withaudio.md
