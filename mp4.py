@@ -98,5 +98,5 @@ if __name__ == "__main__":
     create_mp4_from_folder(
         input_folder='images',
         output_file=f'video-{timestamp}.mp4',
-        fps=1/2
+        fps=1
     ) 
