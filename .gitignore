@@ -1,0 +1,25 @@
+# Ignore everything
+*
+*/*
+
+# But allow these files
+!gif.py
+!mp4.py
+!mp4withaudio.py
+!README.md
+!README-mp4.md
+!README-mp4withaudio.md
+!.gitignore
+
+# Still ignore these even if they are unignored above
+*.gif
+__pycache__/
+.DS_Store
+.env
+.venv
+venv/
+ENV/ 
+
+# Add to existing .gitignore
+*.mp4 
+*.mp3
